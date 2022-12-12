@@ -1,0 +1,574 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('gomismta.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.night{
+    position: absolute;
+    margin-top: -70px;
+    width: 100%;
+    height: 100vh;
+
+    animation: night 11s infinite;
+}
+@keyframes night{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.moon_div{
+    margin-left: 170px;
+    position: absolute;
+    width: 200px;
+    color: #FFFFFF;
+}
+.moon{
+    width: 150px;
+    height: 150px;
+    animation: moon 11s infinite;
+
+    position: relative;
+}
+@keyframes moon{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    60%{
+        opacity: 0.4;
+    }
+    70%{
+        opacity: 0.5;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 1;
+    }
+}
+
+.sun{
+    box-shadow: -2px -2px 4px 4px rgba(255, 2, 2, 1), 2px 2px 2px 2px rgba(247, 8, 8, 1);
+    width: 70px;
+    height: 70px;
+    background-color: rgb(225, 26, 0);
+    border-radius: 50px;
+    animation: move 11s infinite;
+
+    position: relative;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+        left: 0px;
+        top: 450px;
+    }
+    1%{
+        opacity: 0.05;
+        left: 1%;
+        top: 440px;
+    }
+    2%{
+        opacity: 0.05;
+        left: 2%;
+        top: 430px;
+    }
+    3%{
+        opacity: 0.1;
+        left: 3%;
+        top: 420px;
+    }
+    4%{
+        opacity: 0.1;
+        left: 4%;
+        top: 410px;
+    }
+    5%{
+        opacity: 0.15;
+        left: 5%;
+        top: 400px;
+    }
+    6%{
+        opacity: 0.15;
+        left: 6%;
+        top: 390px;
+    }
+    7%{
+        opacity: 0.2;
+        left: 7%;
+        top: 380px;
+    }
+    8%{
+        opacity: 0.2;
+        left: 8%;
+        top: 370px;
+    }
+    9%{
+        opacity: 0.25;
+        left: 9%;
+        top: 360px;
+    }
+    10%{
+        opacity: 0.3;
+        left: 10%;
+        top: 350px;
+    }
+    11%{
+        opacity: 0.35;
+        left: 11%;
+        top: 340px;
+    }
+    12%{
+        opacity: 0.35;
+        left: 12%;
+        top: 330px;
+    }
+    13%{
+        opacity: 0.4;
+        left: 13%;
+        top: 320px;
+    }
+    14%{
+        opacity: 0.4;
+        left: 14%;
+        top: 310px;
+    }
+    15%{
+        opacity: 0.45;
+        left: 15%;
+        top: 300px;
+    }
+    16%{
+        opacity: 0.5;
+        left: 16%;
+        top: 290px;
+    }
+    17%{
+        opacity: 0.5;
+        left: 17%;
+        top: 280px;
+    }
+    18%{
+        opacity: 0.55;
+        left: 18%;
+        top: 270px;
+    }
+    19%{
+        opacity: 0.55;
+        left: 19%;
+        top: 260px;
+    }
+    20%{
+        opacity: 0.6;
+        left: 20%;
+        top: 250px;
+    }
+    21%{
+        opacity: 0.65;
+        left: 21%;
+        top: 240px;
+    }
+    22%{
+        opacity: 0.7;
+        left: 22%;
+        top: 230px;
+    }
+    23%{
+        opacity: 0.7;
+        left: 23%;
+        top: 220px;
+    }
+    24%{
+        opacity: 0.75;
+        left: 24%;
+        top: 210px;
+    }
+    25%{
+        opacity: 0.8;
+        left: 25%;
+        top: 200px;
+    }
+    26%{
+        opacity: 0.85;
+        left: 26%;
+        top: 190px;
+    }
+    27%{
+        opacity: 0.85;
+        left: 27%;
+        top: 180px;
+    }
+    28%{
+        opacity: 0.9;
+        left: 28%;
+        top: 170px;
+    }
+    29%{
+        opacity: 0.95;
+        left: 29%;
+        top: 160px;
+    }
+    30%{
+        opacity: 1;
+        left: 30%;
+        top: 150px;
+    }
+    31%{
+        opacity: 1;
+        left: 31%;
+        top: 140px;
+    }
+    32%{
+        opacity: 1;
+        left: 32%;
+        top: 130px;
+    }
+    33%{
+        opacity: 1;
+        left: 33%;
+        top: 120px;
+    }
+    34%{
+        opacity: 0.95;
+        left: 34%;
+        top: 110px;
+    }
+    35%{
+        opacity: 0.95;
+        left: 35%;
+        top: 100px;
+    }
+    36%{
+        opacity: 0.9;
+        left: 36%;
+        top: 90px;
+    }
+    37%{
+        opacity: 0.9;
+        left: 37%;
+        top: 80px;
+    }
+    38%{
+        opacity: 0.85;
+        left: 38%;
+        top: 70px;
+    }
+    39%{
+        opacity: 0.85;
+        left: 39%;
+        top: 60px;
+    }
+    40%{
+        opacity: 0.8;
+        left: 40%;
+        top: 50px;
+    }
+    41%{
+        opacity: 0.8;
+        left: 41%;
+        top: 40px;
+    }
+    42%{
+        opacity: 0.75;
+        left: 42%;
+        top: 30px;
+    }
+    43%{
+        opacity: 0.75;
+        left: 43%;
+        top: 20px;
+    }
+    44%{
+        opacity: 0.7;
+        left: 44%;
+        top: 10px;
+    }
+    45%{
+        opacity: 0.7;
+        left: 45%;
+        top: 0px;
+    }
+    46%{
+        opacity: 0.65;
+        left: 46%;
+        top: 10px;
+    }
+    47%{
+        opacity: 0.65;
+        left: 47%;
+        top: 20px;
+    }
+    48%{
+        opacity: 0.6;
+        left: 48%;
+        top: 30px;
+    }
+    49%{
+        opacity: 0.6;
+        left: 49%;
+        top: 40px;
+    }
+    50%{
+        opacity: 0.55;
+        left: 50%;
+        top: 50px;
+    }
+    51%{
+        opacity: 0.55;
+        left: 51%;
+        top: 60px;
+    }
+    52%{
+        opacity: 0.5;
+        left: 52%;
+        top: 70px;
+    }
+    53%{
+        opacity: 0.5;
+        left: 53%;
+        top: 80px;
+    }
+    54%{
+        opacity: 0.5;
+        left: 54%;
+        top: 90px;
+    }
+    55%{
+        opacity: 0.45;
+        left: 55%;
+        top: 100px;
+    }
+    56%{
+        opacity: 0.45;
+        left: 56%;
+        top: 110px;
+    }
+    57%{
+        opacity: 0.4;
+        left: 57%;
+        top: 120px;
+    }
+    58%{
+        opacity: 0.4;
+        left: 58%;
+        top: 130px;
+    }
+    59%{
+        opacity: 0.4;
+        left: 59%;
+        top: 140px;
+    } 
+    60%{
+        opacity: 0.35;
+        left: 60%;
+        top: 150px;
+    }
+    61%{
+        opacity: 0.35;
+        left: 61%;
+        top: 160px;
+    }
+    62%{
+        opacity: 0.3;
+        left: 62%;
+        top: 170px;
+    }
+    63%{
+        opacity: 0.3;
+        left: 63%;
+        top: 180px;
+    }
+    64%{
+        opacity: 0.25;
+        left: 64%;
+        top: 190px;
+    }
+    65%{
+        opacity: 0.25;
+        left: 65%;
+        top: 200px;
+    }
+    66%{
+        opacity: 0.25;
+        left: 66%;
+        top: 210px;
+    }
+    67%{
+        opacity: 0.2;
+        left: 67%;
+        top: 220px;
+    }
+    68%{
+        opacity: 0.2;
+        left: 68%;
+        top: 230px;
+    }
+    69%{
+        opacity: 0.2;
+        left: 69%;
+        top: 240px;
+    }
+    70%{
+        opacity: 0.15;
+        left: 70%;
+        top: 250px;
+    }
+    71%{
+        opacity: 0.15;
+        left: 71%;
+        top: 260px;
+    }
+    72%{
+        opacity: 0.15;
+        left: 72%;
+        top: 270px;
+    }
+    73%{
+        opacity: 0.15;
+        left: 73%;
+        top: 280px;
+    }
+    74%{
+        opacity: 0.1;
+        left: 74%;
+        top: 290px;
+    }
+    75%{
+        opacity: 0.1;
+        left: 75%;
+        top: 300px;
+    }
+    76%{
+        opacity: 0.1;
+        left: 76%;
+        top: 310px;
+    }
+    77%{
+        opacity: 0.08;
+        left: 77%;
+        top: 320px;
+    }
+    78%{
+        opacity: 0.06;
+        left: 78%;
+        top: 330px;
+    }
+    79%{
+        opacity: 0.04;
+        left: 79%;
+        top: 340px;
+    }   
+    80%{
+        opacity: 0.04;
+        left: 80%;
+        top: 350px;
+    }
+    81%{
+        opacity: 0.02;
+        left: 81%;
+        top: 360px;
+    }
+    82%{
+        opacity: 0.02;
+        left: 82%;
+        top: 370px;
+    }
+    83%{
+        opacity: 0.1;
+        left: 83%;
+        top: 380px;
+    }
+    84%{
+        opacity: 0.1;
+        left: 84%;
+        top: 390px;
+    }
+    85%{
+        opacity: 0;
+        left: 85%;
+        top: 400px;
+    }
+    86%{
+        opacity: 0;
+        left: 86%;
+        top: 410px;
+    }
+    87%{
+        opacity: 0;
+        left: 87%;
+        top: 420px;
+    }
+    88%{
+        opacity: 0;
+        left: 88%;
+        top: 430px;
+    }
+    89%{
+        opacity: 0;
+        left: 89%;
+        top: 440px;
+    }
+    90%{
+        opacity: 0;
+        left: 90%;
+        top: 440px;
+    }
+    100%{
+        opacity: 0;
+        left: 0px;
+        top: 450px;
+    }
+}
